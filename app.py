@@ -13,7 +13,7 @@ st.header("Invoice Extracter Web Application")
  
 question = st.text_input("Write your question here...")
  
-uploaded_image = st.file_uploader("Choose an Image..",type=["mp3"])
+uploaded_image = st.file_uploader("Choose an Image..",type=["jpg","png","jpeg"])
  
 image = ""
  
